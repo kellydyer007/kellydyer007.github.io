@@ -1,1 +1,3 @@
 theme: jekyll-theme-slate
+title: Sea Level Rise
+description: Analyze sea level numbers obtained from satillites to determine when specified cities will begin to flood.
