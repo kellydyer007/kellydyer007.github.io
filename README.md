@@ -79,8 +79,10 @@ print(Y.index(close)+2021)
   ```
   Based on the trends in sea level rise, if they continue in a linear fashion, Pensacola Beach will be flooded in the year 2058. This is only 37 years away, much sooner than I anticipated.
   
+## Expanding the scope to multiple cities
+  Now that we have estimated one city, we can use the same techniques to predict when other costal cities are going to be underwater. I choose some cities around the world that would be impacted by different oceans to see how that factors into the predicted flooding year. I picked 12 costal cities that will be displaed in the data frame below. This new data frame contains the city name, distance from current sea level in meters and millimeters, ocean the city is located on, data from our integration line, and the year cities will flood. The data for distance from current sea level was obtained from https://elevation.maplogs.com/poi/ for each city manually.
+![image](https://user-images.githubusercontent.com/66328517/88105498-ffb4bf80-cb71-11ea-835e-e4928ca8402f.png)
 
+### Exploration and Data visualization
   
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+  
