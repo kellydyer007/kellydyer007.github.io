@@ -1,8 +1,6 @@
 ## Purpose
 
-You can use the [editor on GitHub](https://github.com/kellydyer007/kellydyer007.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Every year I take a trip with my boyfriend and his family to Pensacola Beach in the heat of the Summer. Soak up some sun and enjoy everyones company. The past few years I have gone with, I find my self asking when the tiny and thriving beach city will cease to exist due to sea level rise. This year, I decided to take that question to answer for my final data science lifecycle project, CMSC 320 at University of Maryland, and expand upon it. 
 
 ### Markdown
 
