@@ -12,9 +12,19 @@
 
 ![globe](https://user-images.githubusercontent.com/66328517/88014096-13b5de00-caec-11ea-8ce0-b342623ddbee.png)
 
-
+To calculate when Pensacola will flood, we need to look at the Gulf of mexico data. I used pandas to read in the Gulf csv file along with other oceans I would need for a later analysis (Global trends, Atlantic, Pacific, Sea of Japan, Carribean, Indonesia, North Atlantic, North Pacific, and South China Sea). I repeated this piece of code for each csv file to get everything in a data frame matched with the year the data was obtained. 
 ```markdown
-Syntax highlighted code block
+#collects all data and merges it into one dataframe
+data=pd.read_csv("slr_sla_gbl_free_txj1j2_90.csv", sep=',',skiprows=5)
+data.fillna(0,inplace=True)
+data['global']=data['TOPEX/Poseidon']+data['Jason-1']+data['Jason-2']+data['Jason-3']
+data.drop(['TOPEX/Poseidon','Jason-1','Jason-2','Jason-3'], axis=1, inplace=True)
+data['year']=round(data['year'],2)
+#repeated for every ocean of interest
+atl_data=pd.read_csv("slr_sla_atl_free_txj1j2_90.csv", sep=',',skiprows=5)
+atl_data.fillna(0,inplace=True)
+data['atlantic']=atl_data['TOPEX/Poseidon']+atl_data['Jason-1']+atl_data['Jason-2']+atl_data['Jason-3']
+
 
 # Header 1
 ## Header 2
