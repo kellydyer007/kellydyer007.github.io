@@ -42,6 +42,7 @@ data['atlantic']=atl_data['TOPEX/Poseidon']+atl_data['Jason-1']+atl_data['Jason-
 My dataframe is filled with everything needed and looks as follows:
 ![image](https://user-images.githubusercontent.com/66328517/88014651-7491e600-caed-11ea-89d6-baf3462519bc.png)
 
+### Data Tidying
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
