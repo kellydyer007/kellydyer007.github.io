@@ -1,4 +1,8 @@
-*The uploaded slr files are the individual csv files for each ocean I added to my data frame
+Created by Kelly Dyer for CMSC 320 Summer 1 2020 Professor: Kyungjin Yoo
+An analysis of sea level numbers obtained from satillites to determine the year when specified cities will begin to flood.
+
+Note: The uploaded slr files are the individual csv files for each ocean I added to my data frame
+
 ## Introduction
 
   Every year I take a trip with my boyfriend and his family to Pensacola Beach in the heat of the Summer. The past few years I have gone with, I find my self asking when the tiny and thriving beach city will cease to exist due to sea level rise. As I was taking a Summer class this year, I decided to answer the question that has been brewing in my mind for my final data science lifecycle project, for CMSC 320 Intro to Data Science at University of Maryland, and expand upon it. 
