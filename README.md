@@ -60,8 +60,8 @@ for index, row in groups.iterrows():
     groups.at[int(index),'quart']=quarter(row['year'])
     ye=str(math.floor(row['year']))
     groups.at[int(index),'yearID']= ye+" "+str(row['quart'])
-    
 ```
+![image](https://user-images.githubusercontent.com/66328517/88097322-f887b480-cb65-11ea-84d1-2ba106fd1969.png)
 
 ### Data Processing
   Now that we have all our data looking pretty and ready to analyze, I created some regression lines superimposed over the actual data graph for the Gulf of Mexico and global trends. 
