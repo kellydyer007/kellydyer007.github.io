@@ -71,6 +71,16 @@ for index, row in groups.iterrows():
 
 Now that we understand why regional differences happen, we can use the regression line to predict how far sea level will rise over a period of time. To do this, we need to take the integral of whatever ocean we are looking at. In relation to pensacola, we look at the Gulf of Mexico. I took the integral up until the year 3000 to see the trend overtime. When our integration line intercepts the horizontal flood threshold line, the city in question will be flooded or begin to flood, depending on where the sea level measurement was taken in the city. 
 
+  The Scipy integration method returns a list of points, so to determine an estimated yeat I needed to find the index with data closest to the flooding parameter and add it to 2021, the current year. I used this piece of code to find the predicted year based on the integration line:
+  ```markdown
+  #finds the intersection of the two lines
+close=min(Y, key=lambda x:abs(x-5000))
+print(Y.index(close)+2021)
+  ```
+  Based on the trends in sea level rise, if they continue in a linear fashion, Pensacola Beach will be flooded in the year 2058. This is only 37 years away, much sooner than I anticipated.
+  
+
+  
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
