@@ -43,7 +43,7 @@ My dataframe is filled with everything needed and looks as follows:
 ![image](https://user-images.githubusercontent.com/66328517/88014651-7491e600-caed-11ea-89d6-baf3462519bc.png)
 
 ### Data Tidying
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+  As you can see in my dataframe, the year variable contains a decimal point that represents when the measurement was made. The decimal is not easy on the eyes and hard to understand when beginning to look at the data. So, I decided to seperate out the year into quarters based on this decimal point. 
 
 ### Jekyll Themes
 
