@@ -103,5 +103,12 @@ This plot is the culmination plot of everything I have calculated. You can see t
 
 The clustering grouped together cities with similar flooding year and distance from sea level. Clustering may be more informative if I had a larger dataset of cities to see which oceans landed in the same clusters or if they are all spread. From my clustering with limited data points, you can see that the individual oceans are spead across all clusters. Many cities I picked do not share the same influenced ocean, so the conclusions I can draw from clustering are minimal.
 
+## Conclusion
 
+### Insight
+If the sea level's continues to progress how it is currently, in a linear fashion, sea level rise will become a huge issue for many costal cities as they will start to loose ports and land mass, as well as displace citizens who live near the coast. This will cause strain on the local governments and unhappy indiciduals who will loose their house and recreational parks and beaches. 
+  Many of the first settlers decided to settle and create costal cities did this for ease of trade and not having to move all their supplies further inland. Also, many of these people came by boat so it was benifical to settle right where they landed. They did not realize this at the time, but settling so close to the ocean may just be some cities downfall due to the rapid rise in sea level. This issue will persist for many years, but, if the world comes together and address issues related to global warming and melting ice caps, we may be able to slow down the rate at which the sea levels are rising and prepare for the inevitible. 
+  
+### Ice Melt Relation?
+  
   
