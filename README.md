@@ -48,9 +48,10 @@ My dataframe is filled with everything needed and looks as follows:
 
 ```
 
-### Jekyll Themes
+### Data Processing
+  Now that we have all our data looking pretty and ready to analyze, I created some regression lines superimposed over the actual data graph. As you can see from the graph, the Gulf of Mexico (red regression line) has a higher slope than the Atlantic ocean (green regression line). Why is this the case when the oceans are connected? After doing some research, the difference is due to how oceans stores heat. The regional differences occur because of the variability of winds and ocean currents that affect how the oceans store heat. This article explains the regional differences well, https://www.climate.gov/news-features/understanding-climate/climate-change-global-sea-level. 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kellydyer007/kellydyer007.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Now that we understand why regional differences happen, we can use the regression line to predict how far sea level will rise over a period of time. To do this, we need to take the integral of whatever ocean we are looking at. I took the integral up until the year 3000 to see the trend overtime. 
 
 ### Support or Contact
 
