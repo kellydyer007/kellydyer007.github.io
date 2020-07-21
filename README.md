@@ -4,9 +4,9 @@
 
   I am going to take you through the data science lifecycle and my steps to answering the question of what year Pensacola, and later other cities, will begin to flood due purely to the rise in sea level.
 
-### Markdown
+### Data Collection
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+  The first step for any data science problem is determining the data you need and gathering it. Because I want to know when a landmass will flood due to rises in the oceans, I looked for sea level measurements over the past years. I was able to find data collected by four satillites, TPOEX/POSIDEON, Jason-1, Jason-2, and Jason-3, funded by the National Oceanic and Atmospheric Administration the National Oceanic and Atmospheric Administration (NOAA) containing data from 1992 to 2020. 
 
 ```markdown
 Syntax highlighted code block
