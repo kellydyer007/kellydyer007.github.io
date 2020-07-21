@@ -45,11 +45,29 @@ My dataframe is filled with everything needed and looks as follows:
 ### Data Tidying
   As you can see in my dataframe, the year variable contains a decimal point that represents when the measurement was made. The decimal is not easy on the eyes and hard to understand when beginning to look at the data. So, I decided to seperate out the year into quarters based on this decimal point. This seperates the year into quarters similar to the fiscal year, [0,.25)=Q1 [.25,.5)=Q2 [.5,.75)=Q3 [.75,1)=Q4.] Creating a new variable made grouping and understanding the year eaiser. Other than the year, the data was relatively clean and easy to understand. Below you can see the code I used to create the quarters variable and the final dataframe after tidying. 
 ```markdown
+def quarter(y):
+    flo=math.floor(y)
+    if y-flo<.25:
+        return "Q1"
+    elif y-flo<.5:
+        return "Q2"
+    elif y-flo<.75:
+        return "Q3"
+    else:
+        return "Q4"
 
+for index, row in groups.iterrows():
+    groups.at[int(index),'quart']=quarter(row['year'])
+    ye=str(math.floor(row['year']))
+    groups.at[int(index),'yearID']= ye+" "+str(row['quart'])
+    
 ```
 
 ### Data Processing
-  Now that we have all our data looking pretty and ready to analyze, I created some regression lines superimposed over the actual data graph. As you can see from the graph, the Gulf of Mexico (red regression line) has a higher slope than the Atlantic ocean (green regression line). Why is this the case when the oceans are connected? After doing some research, the difference is due to how oceans stores heat. The regional differences occur because of the variability of winds and ocean currents that affect how the oceans store heat. This article explains the regional differences well, https://www.climate.gov/news-features/understanding-climate/climate-change-global-sea-level. 
+  Now that we have all our data looking pretty and ready to analyze, I created some regression lines superimposed over the actual data graph for the Gulf of Mexico and global trends. 
+  ![image](https://user-images.githubusercontent.com/66328517/88097178-c8401600-cb65-11ea-9d46-3b9c5caf1d56.png)
+  
+  As you can see from the graph, the Gulf of Mexico (red regression line) has a higher slope than the Atlantic ocean (green regression line). Why is this the case when the oceans are connected? After doing some research, the difference is due to how oceans stores heat. The regional differences occur because of the variability of winds and ocean currents that affect how the oceans store heat. This article explains the regional differences well, https://www.climate.gov/news-features/understanding-climate/climate-change-global-sea-level. 
 
 Now that we understand why regional differences happen, we can use the regression line to predict how far sea level will rise over a period of time. To do this, we need to take the integral of whatever ocean we are looking at. I took the integral up until the year 3000 to see the trend overtime. 
 
