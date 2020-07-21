@@ -10,6 +10,9 @@
   
   When answering the question of unexpected sea level rise, we want to look only at the unusual increase over time. Included seasonal trends in my data would produce inaccurate and skewed results. Due to this, I decided to use the other dataset NOAA has collected, the seasonal affects removed data. This data is seperated into csv files of each ocean based on the picture below. Each file has data for how many millimeters the ocean rose at the time of observement. 
 
+![globe](https://user-images.githubusercontent.com/66328517/88014096-13b5de00-caec-11ea-8ce0-b342623ddbee.png)
+
+
 ```markdown
 Syntax highlighted code block
 
