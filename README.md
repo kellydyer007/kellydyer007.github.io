@@ -69,7 +69,7 @@ for index, row in groups.iterrows():
   
   As you can see from the graph, the Gulf of Mexico (red regression line) has a higher slope than the Atlantic ocean (green regression line). Why is this the case when the oceans are connected? After doing some research, the difference is due to how oceans stores heat. The regional differences occur because of the variability of winds and ocean currents that affect how the oceans store heat. This article explains the regional differences well, https://www.climate.gov/news-features/understanding-climate/climate-change-global-sea-level. 
 
-Now that we understand why regional differences happen, we can use the regression line to predict how far sea level will rise over a period of time. To do this, we need to take the integral of whatever ocean we are looking at. I took the integral up until the year 3000 to see the trend overtime. 
+Now that we understand why regional differences happen, we can use the regression line to predict how far sea level will rise over a period of time. To do this, we need to take the integral of whatever ocean we are looking at. In relation to pensacola, we look at the Gulf of Mexico. I took the integral up until the year 3000 to see the trend overtime. When our integration line intercepts the horizontal flood threshold line, the city in question will be flooded or begin to flood, depending on where the sea level measurement was taken in the city. 
 
 ### Support or Contact
 
