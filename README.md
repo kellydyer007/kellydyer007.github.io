@@ -95,3 +95,13 @@ As you can see in this plot, the pink line representing Shanghai China, which is
 
 This plot is the culmination plot of everything I have calculated. You can see the increase in the influencing ocean clearly when looking at Shanghai and London, as well as Pensacola and Mumbai. Looking at Shanghai and London first, you can see that Shanghai, 13 meters above sea level, will flood before London, 11 meters above sea level. Even though Shanghai is 2 meters above London, the heavy slope on the China Sea will impact the flooding date. Based on my predictions, Shanghai will flood 2 years earlier than London. Even though this flooding does not occure until 2088, you are still able to see the impact of the influencing ocean. This is most likely due to the China Sea being largly influenced by global warming, but this is not in the scope for this project.
   You are also able to see the impact when looking at Pensacola and Mumbai. They are both located 5 meters above sea level, yet Pensacola floods faster than Mumbai. Even though the integration lines do not significantly show an increase between eachother until 2150, the ocean a city is located on depends on the rate of flooding, no matter how small the increase may be. 
+  
+  ### Machine Learning
+  In addition to useing future predicted regression lines to calculate flooding year, I used the K-means clustering algorithm to cluster my data. You can see the output of my clustering below. 
+  
+  ![image](https://user-images.githubusercontent.com/66328517/88107644-77381e00-cb75-11ea-996b-69cc68b551d2.png)
+
+The clustering grouped together cities with similar flooding year and distance from sea level. Clustering may be more informative if I had a larger dataset of cities to see which oceans landed in the same clusters or if they are all spread. From my clustering with limited data points, you can see that the individual oceans are spead across all clusters. Many cities I picked do not share the same influenced ocean, so the conclusions I can draw from clustering are minimal.
+
+
+  
