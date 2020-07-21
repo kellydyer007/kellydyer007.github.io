@@ -84,5 +84,9 @@ print(Y.index(close)+2021)
 ![image](https://user-images.githubusercontent.com/66328517/88105498-ffb4bf80-cb71-11ea-835e-e4928ca8402f.png)
 
 ### Exploration and Data visualization
-  
-  
+  The first plot of interest is the plot of integration lines, located in the data column, for each city together in one graph to see how the slope of each line affects the flooding rate. 
+  ![image](https://user-images.githubusercontent.com/66328517/88105776-7782ea00-cb72-11ea-8d65-64912b479851.png)
+As you can see in this plot, the pink line representing Shanghai China, which is influenced by the China Sea, will flood faster than any of the other oceans, while the green line representing London, influenced by the North Sea, will flood the slowest over a long period of time. Looking far out into the future of these cities gives insight on which mainland is going to flood faster. So the mainland of China will flood faster than the mainland of, say, Australia. 
+  We can use the integration lines similar to as we did in our Pensacola example and find the intersection of the integration with the flood parameter of each city. The next graph I created shows the predicted year of flooding plotted with the total sea level increase needed.
+  ![image](https://user-images.githubusercontent.com/66328517/88106449-80c08680-cb73-11ea-8029-35580c580748.png)
+
