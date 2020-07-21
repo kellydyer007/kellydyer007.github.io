@@ -24,20 +24,6 @@ data['year']=round(data['year'],2)
 atl_data=pd.read_csv("slr_sla_atl_free_txj1j2_90.csv", sep=',',skiprows=5)
 atl_data.fillna(0,inplace=True)
 data['atlantic']=atl_data['TOPEX/Poseidon']+atl_data['Jason-1']+atl_data['Jason-2']+atl_data['Jason-3']
-
-
-# Header 1
-## Header 2
-### Hi
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
 ```
 My dataframe is filled with everything needed and looks as follows:
 ![image](https://user-images.githubusercontent.com/66328517/88014651-7491e600-caed-11ea-89d6-baf3462519bc.png)
@@ -111,7 +97,7 @@ If the sea level's continues to progress how it is currently, in a linear fashio
   
 ### Ice Melt Relation?
 
-![image](https://user-images.githubusercontent.com/66328517/88109430-8076ba00-cb78-11ea-96ba-221955942cb2.png)
+![image](https://user-images.githubusercontent.com/66328517/88109493-9a180180-cb78-11ea-9820-c1b74d60c7f5.png)
 
   When I was first looking at the mean sea level graph by year, I noticed a huge spike around the year 2016/2017 seen in the graph above. I wanted to investigate to see what caused this huge spike. This article explained this peak very well: https://www.nytimes.com/interactive/2017/06/09/climate/antarctica-rift-update.html. This large peak was caused by part of an ice shelf, located in the pacific ocean, breaking off. When large chunks of ice break and slide into the ocean that were above sea level, the sea level rises. For many costal cities, the rise of sea level over time will be an issue. But, for many inland cities and even some costal cities, these large peaks will be their demise. It may be sudden surges and waves that persist throught the year that more inland cities will have to deal with and learn to control. Overall, wether a city is located costally or further inland, they will have to learn to combat or live with the rise in sea level. Many people with homes next to the ocean will be displaced and need to find a safer place to live.
   
