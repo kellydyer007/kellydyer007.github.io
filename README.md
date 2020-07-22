@@ -53,6 +53,9 @@ for index, row in groups.iterrows():
     ye=str(math.floor(row['year']))
     groups.at[int(index),'yearID']= ye+" "+str(row['quart'])
 ```
+
+After tidying the year colum, I used pandas groupby function to group my data by year and quarter. I then took the mean of each year-quarter grouping to use that as my calculation data. My final data frame of the year-quarter grouping mean is shown below and the one that I will be using for my calculations.
+
 ![image](https://user-images.githubusercontent.com/66328517/88097322-f887b480-cb65-11ea-84d1-2ba106fd1969.png)
 
 ### Data Processing
